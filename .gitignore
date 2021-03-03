@@ -1,2 +1,10 @@
 *.class
 *.log
+.idea
+project
+out
+build
+logs
+tmp
+target
+dist

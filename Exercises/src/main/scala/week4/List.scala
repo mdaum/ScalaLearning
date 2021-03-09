@@ -22,13 +22,3 @@ object List {
   def apply[T](x: T): List[T] = new Cons[T](x, new Nil)
   def apply[T]() = new Nil
 }
-
-object Runner {
-  def main(args: Array[String]): Unit = {
-    val empty = List()
-    val size1 = List(1)
-    println(s"${size1.head}")
-    val l = List(1, 2)
-    println(s"${l.head} => ${l.tail.head}")
-  }
-}
